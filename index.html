@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+            <h2>CRUD</h2>
+
+        </div>
+        <div class="input">
+            <input type="text" id="title" placeholder="title">
+            <div class="price">
+                <input  type="number" id="price" placeholder="price">
+                <input  type="number" id="taxes" placeholder="taxes">
+                <input  type="numper" id="ads" placeholder="ads">
+                <input  type="number" id="discount" placeholder="discount">
+                <small  id="total" ></small>
+                <!-- onkeyup="gettotal()" -->
+                <!-- <button id="temp" onclick="gettotal()"></button> -->
+            </div>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" id="category" placeholder="category">
+            <button id="submit">create</button>
+        </div>
+        <div class="output">
+            <input type="text" id="search" placeholder="search"/>
+            <div class="btnsearch">
+                <button id="searchtitle">search by title</button>
+                <button id="searchcategory">search by category</button>
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    
+                    <th>caregory</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                
+                    <tbody id="tbody">
+                        <tr>
+                        <td>1</td>
+                        <td>oppo</td>
+                        <td>2000</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>2100</td>
+                        <td>phone</td>
+                        <td><button id="update">update</button></td>
+                        <td><button id="delete">delete</button></td>
+                        
+                        
+                        
+                    </tr>
+                    </tbody>
+              
+            </table>
+        </div>
+    </div>
+</body>
+</html>
