@@ -70,3 +70,6 @@ table{
 table th{
     text-transform: uppercase;
 }
+#deleteall{
+    margin:20px;
+}
